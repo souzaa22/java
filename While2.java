@@ -42,9 +42,30 @@ public class While2 {
 
         System.out.println("A soma dos números digitados é: " + soma);
 
+//6
+        int senha = 0;
 
+        while (senha != 1234) {
+            System.out.print("Digite a senha: ");
+            senha = scanner.nextInt();
 
+            if (senha != 1234) {
+                System.out.println("Senha incorreta, tente novamente.");
+            }
+        }
 
+        System.out.println("Acesso permitido!");
+
+//7
+        System.out.print("Digite um número inteiro positivo: ");
+        int numero10 = scanner.nextInt();
+
+        while (numero > 0) {
+            System.out.println(numero);
+            numero--;  
+
+        System.out.println("Fim da contagem!");
     
+}
 }
 }
